@@ -5,10 +5,7 @@ A production-ready, fault-tolerant, and event-driven **serverless order processi
 This workflow simulates a complete e-commerce order lifecycle: receive order → check inventory → charge payment → send confirmation → publish notification.
 
 ---
-
-## Architecture Diagram
-
-![Order Processing Workflow](flow.png)
+<img width="747" height="483" alt="image" src="https://github.com/user-attachments/assets/17e717db-8ba0-455d-b4cd-64dd9d3b9a75" />
 
 ---
 
@@ -59,7 +56,3 @@ This workflow simulates a complete e-commerce order lifecycle: receive order →
 3. Define Step Functions state machine using the provided ASL definition.
 4. Assign least privilege IAM roles for Lambdas and Step Functions.
 5. Test using sample payload.
-
----
-
-MIT
